@@ -1,16 +1,10 @@
 #!/usr/bin/env jython
 import sys
 
-from ch.interlis.iox import IoxException
-from ch.interlis.iox import IoxReader
 from ch.ehi.ili2db.base import Ili2db
 from ch.ehi.ili2db.base import Ili2dbException
 from ch.ehi.ili2db.gui import Config
 from ch.ehi.ili2gpkg import GpkgMain
-from ch.interlis.iom_j.itf import ItfReader
-from ch.interlis.iom_j.xtf import XtfReader
-from ch.interlis.iox import IoxEvent
-from ch.interlis.iox_j import EndTransferEvent
 
 print sys.path
 
