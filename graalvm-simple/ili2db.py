@@ -25,9 +25,6 @@ settings.setDburl("jdbc:sqlite:" + settings.getDbfile())
 settings.setXtffile("254900.itf")
 try:
     Ili2db.run(settings, None)
-except Ili2dbException as value: 
-    print(fubar)
+except Ili2dbException as value: # not sure if this works as expected 
+    print("fubar")
     print(value)
-
-
-
