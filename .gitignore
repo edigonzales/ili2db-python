@@ -1,3 +1,6 @@
+*.gpkg
+.jython_cache
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/maven,gradle,java,python,windows,macos,linux,eclipse,intellij+all,netbeans
 # Edit at https://www.toptal.com/developers/gitignore?templates=maven,gradle,java,python,windows,macos,linux,eclipse,intellij+all,netbeans
